@@ -1,0 +1,89 @@
+=> check empty gates when user stops typing
+=> autoamtically add () at end of gates or else show its a method
+=> check intialization  issues
+=> notify unused Qubits / classical registers
+=> illegal gate operations (only 5 qubits but h gate on 6th )
+=> if there are specific number of elements as in types of simulator autocomplete must give dropdown and autocomplete 
+
+
+Dev Notes :
+        1. possible function (quantumRegister) inside quantumCircuit and gates
+
+-----------------------------------------------------------------------------------------------------------------
+Already Existing:
+    qiskit-vscode:
+        Features:
+            Check necessary dependencies to execute OpenQASM or Qiskit files.
+            Run Qiskit source code in a backend.
+            Run OpenQASM source code in a local backend.
+            Backends (local and remote ones) discovery.
+            Job's execution management.
+            User's credit management.
+            OpenQASM error detection.
+            OpenQASM autocompletion.
+            Qiskit static analysis.
+
+    Qiksit-Snippets:
+        # just imports :
+        qbase	skeleton code for a Quantum circuit
+        qbasic-imports	Basic imports for Qiskit
+        qviz-imports	Basic imports for Qiskit visualization tools
+        qviz-histplot	Histogram plot snippet
+
+------------------------------------------------------------------------------------------
+
+## Can be used like es-lint 
+
+Resources:
+    https://code.visualstudio.com/api/language-extensions/language-server-extension-guide
+
+    Language Server Protocol:
+        can be used on any ide write once for language and use any ide.
+
+    Quantum\ExtensionIdea\lsp-languages-editors.png
+
+    Language Client: A normal VS Code extension written in JavaScript / TypeScript. This extension has access to all VS Code Namespace API.
+    Language Server: A language analysis tool running in a separate process.
+
+    => Two language servers can run parellly. 1 try doing this and then try to add original python server as a dependency :)
+
+
+
+## Things we can do:
+        Document Highlights:
+                 highlights all 'equal' symbols in a text document.
+        Hover: 
+                provides hover information for a symbol selected in a text document.
+        Signature Help: 
+                provides signature help for a symbol selected in a text document.
+        Goto Definition: 
+                provides go to definition support for a symbol selected in a text document.
+        Goto Type Definition:
+                provides go to type/interface definition support for a symbol selected in a text document.
+        Goto Implementation:
+                provides go to implementation definition support for a symbol selected in a text document.
+        Find References:
+                finds all project-wide references for a symbol selected in a text document.
+        List Document Symbols:
+                lists all symbols defined in a text document.
+        List Workspace Symbols:
+                lists all project-wide symbols.
+        Code Actions:
+                compute commands to run (typically beautify/refactor) for a given text document and range.
+        CodeLens:
+                compute CodeLens statistics for a given text document.
+        Document Formatting:
+                this includes formatting of whole documents, document ranges and formatting on type.
+        Rename:
+                project-wide rename of a symbol.
+        Document Links: 
+                compute and resolve links inside a document.
+        Document Colors:
+                compute and resolve colors inside a document to provide color picker in editor.
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+# NotesToMySelf:
+        1. this wont throw error:
+            bell2 = QuantumCircuit
+

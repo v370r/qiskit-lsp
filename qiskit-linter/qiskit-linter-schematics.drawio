@@ -1,0 +1,106 @@
+<mxfile host="app.diagrams.net" modified="2023-11-14T15:27:46.077Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="cb-jNClEpURCFccSaGJF" version="22.1.0" type="device">
+  <diagram name="Page-1" id="xoHj4wdCNWUKRZn6AHBZ">
+    <mxGraphModel dx="1050" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uiz-_VgzessnTttOkVOj-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uiz-_VgzessnTttOkVOj-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uiz-_VgzessnTttOkVOj-6" value="front-end" style="swimlane;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="110" y="70" width="300" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="uiz-_VgzessnTttOkVOj-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="uiz-_VgzessnTttOkVOj-6" target="uiz-_VgzessnTttOkVOj-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="70" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uiz-_VgzessnTttOkVOj-7" value="Client" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="uiz-_VgzessnTttOkVOj-6">
+          <mxGeometry x="40" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uiz-_VgzessnTttOkVOj-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="uiz-_VgzessnTttOkVOj-6" source="uiz-_VgzessnTttOkVOj-8" target="uiz-_VgzessnTttOkVOj-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uiz-_VgzessnTttOkVOj-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="uiz-_VgzessnTttOkVOj-6" source="uiz-_VgzessnTttOkVOj-8" target="uiz-_VgzessnTttOkVOj-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uiz-_VgzessnTttOkVOj-8" value="Activation Events" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="uiz-_VgzessnTttOkVOj-6">
+          <mxGeometry x="30" y="90" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uiz-_VgzessnTttOkVOj-10" value="change, OnOpen, ...." style="whiteSpace=wrap;html=1;" vertex="1" parent="uiz-_VgzessnTttOkVOj-6">
+          <mxGeometry x="10" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uiz-_VgzessnTttOkVOj-28" value="Client remains Idle" style="whiteSpace=wrap;html=1;" vertex="1" parent="uiz-_VgzessnTttOkVOj-6">
+          <mxGeometry x="160" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uiz-_VgzessnTttOkVOj-30" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="uiz-_VgzessnTttOkVOj-6">
+          <mxGeometry x="100" y="100" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uiz-_VgzessnTttOkVOj-31" value="yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="uiz-_VgzessnTttOkVOj-6">
+          <mxGeometry x="80" y="170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uiz-_VgzessnTttOkVOj-15" value="Backend" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="70" width="360" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="uiz-_VgzessnTttOkVOj-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="uiz-_VgzessnTttOkVOj-15" source="uiz-_VgzessnTttOkVOj-18" target="uiz-_VgzessnTttOkVOj-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uiz-_VgzessnTttOkVOj-18" value="server" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="uiz-_VgzessnTttOkVOj-15">
+          <mxGeometry x="40" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uiz-_VgzessnTttOkVOj-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="uiz-_VgzessnTttOkVOj-15" source="uiz-_VgzessnTttOkVOj-21" target="uiz-_VgzessnTttOkVOj-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uiz-_VgzessnTttOkVOj-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="uiz-_VgzessnTttOkVOj-15" source="uiz-_VgzessnTttOkVOj-21" target="uiz-_VgzessnTttOkVOj-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uiz-_VgzessnTttOkVOj-21" value="AST&lt;br&gt;needed?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="uiz-_VgzessnTttOkVOj-15">
+          <mxGeometry x="30" y="110" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uiz-_VgzessnTttOkVOj-22" value="child process&lt;br&gt;picks up and runs ASTs (python)" style="whiteSpace=wrap;html=1;" vertex="1" parent="uiz-_VgzessnTttOkVOj-15">
+          <mxGeometry x="220" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uiz-_VgzessnTttOkVOj-24" value="yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="uiz-_VgzessnTttOkVOj-15">
+          <mxGeometry x="100" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uiz-_VgzessnTttOkVOj-25" value="typescript validators" style="whiteSpace=wrap;html=1;" vertex="1" parent="uiz-_VgzessnTttOkVOj-15">
+          <mxGeometry x="10" y="260" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uiz-_VgzessnTttOkVOj-33" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="uiz-_VgzessnTttOkVOj-15" target="uiz-_VgzessnTttOkVOj-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="269.5" as="sourcePoint" />
+            <mxPoint x="210" y="269.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uiz-_VgzessnTttOkVOj-34" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="uiz-_VgzessnTttOkVOj-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="269.5" y="180" as="sourcePoint" />
+            <mxPoint x="269.5" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uiz-_VgzessnTttOkVOj-35" value="Type&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="uiz-_VgzessnTttOkVOj-15">
+          <mxGeometry x="230" y="230" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uiz-_VgzessnTttOkVOj-36" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="uiz-_VgzessnTttOkVOj-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="270" as="sourcePoint" />
+            <mxPoint x="480" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uiz-_VgzessnTttOkVOj-16" value="JSON RPC" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uiz-_VgzessnTttOkVOj-27" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="580" y="258" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uiz-_VgzessnTttOkVOj-37" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;User Understandig&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Diagnostics&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Hover&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;AutoComplete&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="990" y="210" width="160" height="230" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

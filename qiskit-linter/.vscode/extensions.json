@@ -1,0 +1,10 @@
+{
+	"recommendations": [
+        "ms-python.python",
+        "esbenp.prettier-vscode",
+		"ms-python.vscode-pylance"
+    ],
+    "unwantedRecommendations": [
+        "unwantedExtension.unwantedFeature"
+    ],
+}

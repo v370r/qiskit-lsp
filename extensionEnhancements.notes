@@ -1,0 +1,17 @@
+
+
+Main Features:
+    [ ] Detect if wrong qubits have been initialized
+    [ ] Notify the required no of parameters using inspect (will fix the gates issue)
+    [ ] Notify unused quibits while measureing
+    [ ] auto-complete suggestions for simulators
+    [ ] Possible switch to total type-script instead of using Java 
+
+
+
+    # Detect if wrong qubits have been initialized:
+        [√] fix for number if quantum circuit or any of its alias is used 
+        [ ] fix if the input is a list 
+        [ ] fix if implemented with quantum registers and classical registers 
+        [ ] variable string issues code = """ vale """ is beign parsed make sure strings are not being parsed 
+        
